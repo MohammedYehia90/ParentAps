@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134148" started-at="2020-12-15T15:48:10 EET" finished-at="2020-12-15T15:50:24 EET">
+    <groups>
+    </groups>
+    <test name="TestonChrome" duration-ms="61470" started-at="2020-12-15T15:48:10 EET" finished-at="2020-12-15T15:49:11 EET">
+      <class name="test.CreateEvent">
+        <test-method status="PASS" signature="setupEnviroment(java.lang.String)[pri:0, instance:test.CreateEvent@6043cd28]" name="setupEnviroment" is-config="true" duration-ms="20769" started-at="2020-12-15T15:48:10 EET" finished-at="2020-12-15T15:48:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnviroment -->
+        <test-method status="PASS" signature="login()[pri:1, instance:test.CreateEvent@6043cd28]" name="login" duration-ms="670" started-at="2020-12-15T15:48:31 EET" finished-at="2020-12-15T15:48:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectKidsPlaceCalender()[pri:2, instance:test.CreateEvent@6043cd28]" name="selectKidsPlaceCalender" duration-ms="10126" started-at="2020-12-15T15:48:31 EET" finished-at="2020-12-15T15:48:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectKidsPlaceCalender -->
+        <test-method status="PASS" signature="createEvent()[pri:3, instance:test.CreateEvent@6043cd28]" name="createEvent" duration-ms="12319" started-at="2020-12-15T15:48:42 EET" finished-at="2020-12-15T15:48:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+        <test-method status="PASS" signature="checkSuccessfullNotification()[pri:4, instance:test.CreateEvent@6043cd28]" name="checkSuccessfullNotification" duration-ms="17051" started-at="2020-12-15T15:48:54 EET" finished-at="2020-12-15T15:49:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuccessfullNotification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.CreateEvent@6043cd28]" name="tearDown" is-config="true" duration-ms="463" started-at="2020-12-15T15:49:11 EET" finished-at="2020-12-15T15:49:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.CreateEvent -->
+    </test> <!-- TestonChrome -->
+    <test name="TestonFireFox" duration-ms="67630" started-at="2020-12-15T15:49:16 EET" finished-at="2020-12-15T15:50:24 EET">
+      <class name="test.CreateEvent">
+        <test-method status="PASS" signature="setupEnviroment(java.lang.String)[pri:0, instance:test.CreateEvent@4a87761d]" name="setupEnviroment" is-config="true" duration-ms="28313" started-at="2020-12-15T15:49:16 EET" finished-at="2020-12-15T15:49:45 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnviroment -->
+        <test-method status="PASS" signature="login()[pri:1, instance:test.CreateEvent@4a87761d]" name="login" duration-ms="649" started-at="2020-12-15T15:49:45 EET" finished-at="2020-12-15T15:49:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectKidsPlaceCalender()[pri:2, instance:test.CreateEvent@4a87761d]" name="selectKidsPlaceCalender" duration-ms="8304" started-at="2020-12-15T15:49:45 EET" finished-at="2020-12-15T15:49:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectKidsPlaceCalender -->
+        <test-method status="PASS" signature="createEvent()[pri:3, instance:test.CreateEvent@4a87761d]" name="createEvent" duration-ms="11836" started-at="2020-12-15T15:49:54 EET" finished-at="2020-12-15T15:50:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+        <test-method status="PASS" signature="checkSuccessfullNotification()[pri:4, instance:test.CreateEvent@4a87761d]" name="checkSuccessfullNotification" duration-ms="17056" started-at="2020-12-15T15:50:06 EET" finished-at="2020-12-15T15:50:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuccessfullNotification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.CreateEvent@4a87761d]" name="tearDown" is-config="true" duration-ms="1456" started-at="2020-12-15T15:50:23 EET" finished-at="2020-12-15T15:50:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.CreateEvent -->
+    </test> <!-- TestonFireFox -->
+  </suite> <!-- Suite -->
+</testng-results>
